@@ -1,0 +1,46 @@
+.admin__form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+
+  input {
+    padding: 10px;
+  }
+
+  &__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: $primaryCl;
+    color: #fff;
+    transition: 0.2s;
+  }
+}
+
+.log-out {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  background-color: $primaryCl;
+  color: #fff;
+  transition: 0.2s;
+  border-radius: 5px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

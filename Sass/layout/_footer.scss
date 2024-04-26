@@ -1,0 +1,33 @@
+.footer {
+  .footer__top {
+    background: #46a3581a;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 18px;
+    gap: 55px;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    gap: 55px;
+    flex-wrap: wrap;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__websocials {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &__webicons {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
